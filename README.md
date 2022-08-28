@@ -8,3 +8,12 @@
 
 	  O Singleton deve ser utilizado quando o software desenvolvido necessitar de apenas uma instância de uma determinada classe,
 	fazendo com que ela seja compartilhada com vários clientes, mas sem perder o desempenho e trazendo um controle de acesso. 
+
+﻿# Factory Method
+ 
+ 	    O Factory Method é um padrão de projeto criacional que tem como objetivo o encapsulamento durante a criação de objetos, 
+	  definindo seus métodos, mas de maneira que as suas subclasses possam alterar os objetos criados. 
+	  
+	    O Factory Method deve ser utilizado quando não se sabe completamente os objetos a serem criados, aonde as subclasses podem
+	  possuir lógicas distintas, estando presente na construção de diversas classes, e sendo utilizado conforme as necessidades 
+	  do cliente através de interfaces ou classes abstratas.
