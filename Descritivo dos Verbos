@@ -1,0 +1,40 @@
+Forneça um descritivo do que significa cada um dos quatro verbos dentro 
+do contexto REST/FUL - GET, POST, PUT e DELETE:
+
+   REST é um modelo de arquitetura de software que tem como objetivo
+definir critérios a serem utilizados durante a implementação de uma API. Para
+ser considerada RESTFul, a aplicação deve seguir todos estes critérios, visando
+a performance e a confiabilidade. Os critérios de uma API REST são: Arquitetura
+Cliente/Servidor, Comunicação Stateless, Cache, Interface Uniforme e Sistema 
+de Camadas.
+   
+   O Método GET tem como objetivo realizar consultas no servidor. Para se
+realizar uma consulta, o usuário informa os parâmetros, que posteriormente são
+fornecidos ao servidor por meio da URL, e estes parâmetros são utilizados como 
+filtros no momento de localizar determinada informação.
+
+   Já o método POST faz o envio dos parâmetros para o servidor, a fim de
+criar e cadastrar algumas informações fornecidas pelo usuário, de maneira que 
+seja feita uma solicitação e inserção no servidor, mas que em caso de mais de 
+uma execução, poderá acabar criando informações com duplicidade.
+
+   Enquanto o método PUT é responsável por atualizar as informações 
+cadastradas no servidor por meio dos parâmetros, mas desde que todas as
+informações estejam preenchidas, mesmo aquelas que não obtiveram alteração.
+
+E por fim o método DELETE que efetua uma solicitação, a fim de remover 
+uma determinada informação do servidor.
+
+Referências:
+
+O que é a API RESTful? – Guia para iniciantes sobre a API RESTful – AWS - Disponível em: https://aws.amazon.com/pt/what-is/restful-api/ - Acesso 08 de Outubro de 2022
+
+O Que é uma API RESTful e Porque Isso Importa - Disponível em: https://www.hostinger.com.br/tutoriais/api-restful - Acesso 08 de Outubro de 2022
+
+RESTful: Sua API se encaixa nesse padrão? - Geek Blog - Disponível em: https://blog.geekhunter.com.br/sua-api-nao-e-restful-entenda-por-que/ - Acesso 08 de Outubro de 2022
+
+Principais verbos HTTP utilizados em um serviço REST - Disponível em: https://www.devmedia.com.br/servicos-restful-verbos-http/37103- Acesso 08 de Outubro de 2022
+
+HTTP: GET e POST - Conheça as diferenças entre os métodos | Alura - Disponível em: https://www.alura.com.br/artigos/diferencas-entre-get-e-post - Acesso 08 de Outubro de 2022
+Métodos HTTP: Quais são e qual a funcionalidade deles. | by Rene Junior | Medium - Disponível em: https://medium.com/@renejr03/métodos-http-quais-são-e-qual-a-funcionalidade-deles-491b1cc5d5b4 - Acesso 08 de Outubro de 2022
+
